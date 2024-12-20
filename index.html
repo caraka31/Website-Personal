@@ -1,0 +1,142 @@
+<DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarakaSports - Dunia Olahraga Favorit</title>
+    <link rel="shortout icon" href="File Pertemuan 20/1727526164277.png">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <style>
+        .hero-image {
+            background-image: url('File Pertemuan 20/olahraga foto.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            position: relative;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .hero-image .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .sport-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">CarakaSports</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sports">Olahraga Favorit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#highlights">Sorotan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-image">
+        <div class="hero-content">
+            <h1 class="display-3">Temukan Olahraga Favorit Anda</h1>
+            <p class="lead">Berita, sorotan, dan jadwal olahraga favorit dalam satu tempat</p>
+            <a href="#sports" class="btn btn-light btn-lg">Eksplor Sekarang</a>
+        </div>
+    </div>
+
+    <section id="sports" class="py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2>Olahraga Favorit</h2>
+                <p>Pilih dan nikmati berita dari olahraga kesukaan Anda</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card sport-card">
+                        <img src="File Pertemuan 20/Sepak Bola.jpg" class="card-img-top" alt="Sepak Bola">
+                        <div class="card-body">
+                            <h5 class="card-title">Sepak Bola</h5>
+                            <p class="card-text">Ikuti berita, skor, dan jadwal terbaru dari dunia sepak bola.</p>
+                            <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card sport-card">
+                        <img src="File Pertemuan 20/Basket.jpeg" class="card-img-top" alt="Basket">
+                        <div class="card-body">
+                            <h5 class="card-title">Basket</h5>
+                            <p class="card-text">Dapatkan informasi tentang liga, tim, dan pemain basket favorit Anda.</p>
+                            <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card sport-card">
+                        <img src="File Pertemuan 20/esport.jpeg" class="card-img-top" alt="E-Sports">
+                        <div class="card-body">
+                            <h5 class="card-title">E-Sports</h5>
+                            <p class="card-text">Turnamen gaming terbaik dari seluruh dunia ada di sini.</p>
+                            <a href="#" class="btn btn-primary">Lihat Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="highlights" class="bg-light py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2>Sorotan Minggu Ini</h2>
+                <p>Berikut adalah momen-momen terbaik dari berbagai olahraga</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="File Pertemuan 20/pertandingan bola.jpeg" class="card-img-top" alt="Highlight 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Pertandingan Epik Sepak Bola</h5>
+                            <p class="card-text">Tim A berhasil mengalahkan Tim B dengan skor 3-2 di menit terakhir.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="File Pertemuan 20/PERTANDINGAN TENIS.webp" class="card-img-top" alt="Highlight 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Turnamen Tenis Dunia</h5>
+                            <p class="card-text">Petenis X menjuarai turnamen bergengsi dengan performa luar biasa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; Dimas Tegar Caraka - 241011700147 - 01SIFE002</p>
+    </footer>
+
+    <script src="Bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
